@@ -5,7 +5,7 @@ Using Git technology and GitHub, we are able to leverage Git to help us manage o
 ***
 
 ## Objective of using GitHub
-* To **copy/clone** an existing code repository into our computer  
+* To **copy/clone** an existing code repository from GitHub online and place it into our computer  
 * To **view/modify/add/remove** codes in our copied code repository in our computer  
 * To **get the latest updated code** from our peers/team members that submitted into the code repository  
 * To **commit/transfer our code changes** and update it into the online code repository  
