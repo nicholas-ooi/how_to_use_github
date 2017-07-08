@@ -1,6 +1,6 @@
 ## Why Git and store codes in GitHub?
 Storing and transferring codes via other means such as sending through an email, uploading it via google drive or Dropbox   
-They would cause potential missing files, mis-configuration, difficulty in merging codes when it comes to a team project.  
+would cause potential missing files, mis-configuration, difficulty in merging codes when it comes to a team project.  
 Using Git technology and GitHub, we are able to leverage Git to help us manage our code and let GitHub be our online code storage.  
 ***
 
