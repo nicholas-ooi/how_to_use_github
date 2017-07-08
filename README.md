@@ -39,7 +39,7 @@ To **view/modify/add/remove** codes in our copied code repository in our compute
 ***
 
 ## What did I just do from the above commands?
-1. `git pull --rebase --prune` - Gets the latest code and updates from the online code repository. --rebase is a flag that informs git to merge the updated codes from the online repository intelligently to our codes that we have.
+1. `git pull --rebase --prune` - Gets the latest code and updates from the online code repository. --rebase is a flag that informs git to merge the updated codes from the online repository intelligently to our codes that we have. --prune is a flag that informs Git to remove any orphan objects linked to the commit such as file removal, sometimes bug occur within git itself because of weird objects that are stuck  
 1. `git add .` - add all the files that you have changed, created, or removed into the staging area.  
 1. `git commit -m "your message"` - add all the files that you have changed, created, or removed from the staging area into the commit area.  
 1. `git push` transfers all the files from commit area into the online code repository.  
