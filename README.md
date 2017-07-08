@@ -30,7 +30,8 @@ To **view/modify/add/remove** codes in our copied code repository in our compute
 ![](https://github.com/nicholas-ooi/how_to_use_github/blob/master/images/snip_20170708203503.png)  
 1. Go back to your GitHub Desktop Application, Right click the how_to_use_github repository, Click open git shell  
 ![](https://github.com/nicholas-ooi/how_to_use_github/blob/master/images/snip_20170708204605.png)  
-1. type `git pull --rebase --prune`
+1. **ALWAYS  `git pull --rebase --prune` before you do anything!!**  
+1. type `git pull --rebase --prune`  
 1. type `git add .` and enter, there is a dot!  
 1. type `git commit -m "your message"`  
 1. type `git push`  
