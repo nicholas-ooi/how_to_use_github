@@ -30,8 +30,11 @@ To **view/modify/add/remove** codes in our copied code repository in our compute
 ![](https://github.com/nicholas-ooi/how_to_use_github/blob/master/images/snip_20170708203503.png)  
 1. Go back to your GitHub Desktop Application, Right click the how_to_use_github repository, Click open git shell  
 ![](https://github.com/nicholas-ooi/how_to_use_github/blob/master/images/snip_20170708204605.png)  
+1. type `git add . ` 
+1. type `git stash`  
 1. **ALWAYS  `git pull --rebase --prune` before you do anything!!**  
 1. type `git pull --rebase --prune`  
+1. type `git stash apply`  
 1. type `git add .` and enter, there is a dot!  
 1. type `git commit -m "your message"`  
 1. type `git push`  
@@ -40,7 +43,9 @@ To **view/modify/add/remove** codes in our copied code repository in our compute
 ***
 
 ## What did I just do from the above commands?
+1. `git add . and git stash` is to take your changes/add/deletion of your files in your computer and put them one side!  
 1. `git pull --rebase --prune` - Gets the latest code and updates from the online code repository. --rebase is a flag that informs git to merge the updated codes from the online repository intelligently to our codes that we have. --prune is a flag that informs Git to remove any orphan objects linked to the commit such as file removal, sometimes bug occur within git itself because of weird objects that are stuck  
+1. `git stash apply` is to take those files you have placed at one side and `merge` into the latest codes you just pulled, resolve any conflict if any  
 1. `git add .` - add all the files that you have changed, created, or removed into the staging area.  
 1. `git commit -m "your message"` - add all the files that you have changed, created, or removed from the staging area into the commit area.  
 1. `git push` transfers all the files from commit area into the online code repository.  
